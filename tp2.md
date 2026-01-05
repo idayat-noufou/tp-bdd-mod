@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     PERSONNE {
         int id_personne PK
@@ -89,3 +90,4 @@ erDiagram
     PROFESSEUR ||--o{ BULLETIN_MATIERE : "rédige"
 
     CLASSE }o--|| PROFESSEUR : "professeur principal"
+```
